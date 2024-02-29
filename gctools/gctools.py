@@ -1,11 +1,11 @@
 import json
 
-# Sauvegarde fichier JSON
+# Save object in a JSON file
 def saveJSON(data: object, file: str) -> None:
   with open(file, 'w') as fp:
       json.dump(data, fp, ensure_ascii=False)
 
-# Chargement de fichiers JSON
+# Load JSON file
 def loadJSON(file: str) -> list:
   try:
     with open(file) as json_file:

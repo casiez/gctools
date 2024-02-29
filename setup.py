@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='gctools',  
-     version='0.0.1',
+     version='0.0.2',
      provides=['gctools'],
      author="Géry Casiez",
      author_email="gery.casiez@univ-lille.fr",
      description="Tools provided by GC.",
      long_description=long_description,
      long_description_content_type="text/markdown",
-     url="https://gitlab.univ-lille.fr/gery.casiez/gctools",
+     url="https://github.com/casiez/gctools",
      packages=setuptools.find_packages(),
      install_requires=[ ],
      licence="MIT License",
