@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='gctools',  
-     version='0.0.2',
+     version='0.0.3',
      provides=['gctools'],
      author="Géry Casiez",
      author_email="gery.casiez@univ-lille.fr",
@@ -15,7 +15,7 @@ setuptools.setup(
      url="https://github.com/casiez/gctools",
      packages=setuptools.find_packages(),
      install_requires=[ ],
-     licence="MIT License",
+     license="MIT License",
      platforms=['any'],
 
      classifiers=[
